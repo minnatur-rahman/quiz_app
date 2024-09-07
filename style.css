@@ -5,3 +5,35 @@
     font-optical-sizing: auto;
     
 }
+body {
+    background-color: #f1f1f1;
+}
+.MyQuizApp {
+    width: 320px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0 / 10%) 0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px;
+    
+}
+.img img {
+    width: 60%;
+}
+.text {
+    width: 90%;
+    margin: auto;
+}
+.text h3 {
+    margin-top: 10px;
+    
+}
+.MyBtn button {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border: 0;
+}
