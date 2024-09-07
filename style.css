@@ -92,6 +92,11 @@ ol li {
     color: #fff;
     padding: 4px 15px;
     cursor: pointer;
-   
     transition: 0.2s ease-in-out;
+}
+.ExitButton {
+    border-radius: 0px 47px 0px 46px;
+}
+.ContinueButton {
+    
 }
