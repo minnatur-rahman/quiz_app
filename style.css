@@ -37,7 +37,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     background-color: tomato;
-    border: 0;
+    border: none;
     outline: none;
     color: #fff;
     padding: 4px 15px;
@@ -82,4 +82,16 @@ ol li {
    font-size: 18px;
    font-weight: 400;
    padding: 10px 25px; 
+}
+.Buttons button {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 4px 15px;
+    cursor: pointer;
+   
+    transition: 0.2s ease-in-out;
 }
