@@ -27,7 +27,9 @@ body {
     margin: auto;
 }
 .text h3 {
-    margin-top: 10px;
+    margin-top: 10px;   
+}
+.MyBtn {
     
 }
 .MyBtn button {
