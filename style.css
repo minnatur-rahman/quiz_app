@@ -30,7 +30,8 @@ body {
     margin-top: 10px;   
 }
 .MyBtn {
-    
+    margin-left: 193px;
+    margin-top: 28px;
 }
 .MyBtn button {
     font-size: 20px;
@@ -39,7 +40,7 @@ body {
     border: 0;
     outline: none;
     color: #fff;
-    padding: 6px 25px;
+    padding: 4px 15px;
     cursor: pointer;
     border-radius: 57px 0px 51px 0px;
     transition: 0.2s ease-in-out;
