@@ -93,10 +93,18 @@ ol li {
     padding: 4px 15px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    margin-top: 46px;
 }
 .ExitButton {
     border-radius: 0px 47px 0px 46px;
 }
+.ExitButton:hover {
+    background-color: red;
+}
 .ContinueButton {
-    
+    border-radius: 57px 0px 46px 0px;
+    margin-left: 83px;
+}
+.ContinueButton:hover {
+    background-color: rgb(29, 194, 194);
 }
