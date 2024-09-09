@@ -108,6 +108,8 @@ ol li {
     background-color: rgb(29, 194, 194);
 }
 
+
+
 .Questions {
     width: 320px;
     height: 600px;
@@ -118,4 +120,11 @@ ol li {
     box-shadow: rgb(0, 0, 0 / 10%) 0px 10px 50px;
     transform: translate(-50%, -50%);
     border-radius: 48px;
+}
+.QuestionHeader {
+    position: relative;
+    z-index: 2;
+    height: 70px;
+    padding: 0 30px;
+    
 }
