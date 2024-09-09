@@ -118,7 +118,7 @@ ol li {
 
 
 
-.Questions.activeInfo {
+.Questions.activeQuiz {
     opacity: 1;
     z-index: 5;
     pointer-events: auto;
