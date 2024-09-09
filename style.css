@@ -22,11 +22,11 @@ body {
 .img img {
     width: 60%;
 }
-.text {
+.text1 {
     width: 90%;
     margin: auto;
 }
-.text h3 {
+.text1 h3 {
     margin-top: 10px;   
 }
 .MyBtn {
@@ -219,5 +219,10 @@ footer button {
     cursor: pointer;
     color: #f1f1f1;
     transition: all 0.3s ease;
-    margin-top: 11px;
+    margin-top: 38px;
+    margin-right: 3px;
+
+}
+footer .nextBtn:hover {
+    background-color: rgb(29, 194, 194);
 }
