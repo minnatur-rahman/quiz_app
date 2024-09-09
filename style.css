@@ -131,3 +131,13 @@ ol li {
     align-items: center;
     justify-content: space-between;
 }
+.QuestionHeader .title {
+    font-size: 15px;
+    font-weight: 600;
+}
+.TimeCount {
+    color: #004085;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    height: 25px;
+}
