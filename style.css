@@ -140,4 +140,9 @@ ol li {
     background: #cce5ff;
     border: 1px solid #b8daff;
     height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 128px;
 }
