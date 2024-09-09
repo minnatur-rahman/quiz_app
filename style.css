@@ -159,3 +159,10 @@ ol li {
     border: 1px solid #343a40;
     user-select: none;
 }
+.time_lines {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #007bff;
+}
