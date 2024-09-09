@@ -156,7 +156,7 @@ ol li {
     line-height: 26px;
     text-align: center;
     background: #343a40;
-    border: 1px solid #343a40;
+    border: 1px solid #343a40; 
     user-select: none;
 }
 .time_lines {
@@ -167,5 +167,6 @@ ol li {
     background: #007bff;
 }
 .section {
-    
+    padding: 25px 30px 20px 30px;
+    background: #fff;
 }
