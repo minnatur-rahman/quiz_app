@@ -20,3 +20,7 @@ ContinueButton.onclick = () => {
    RoolsBox.classList.remove("activeInfo");
    Questions.classList.add("activeQuiz");
 } 
+
+function showQuestions (index) {
+   const que_tex = 
+}
