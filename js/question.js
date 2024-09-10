@@ -1,4 +1,4 @@
-let question = [
+let questions = [
     {
         num:1,
         question:'What Dose HTML Stand for?',
