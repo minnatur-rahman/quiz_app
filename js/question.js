@@ -21,5 +21,16 @@ let question = [
             "Cascading Style Sheet"
         ]
     },
+    {
+        num:3,
+        question:'What Dose PHP Stand for?',
+        answer:'Hyper Text Preprosessor',
+        option:[
+            "Hyper Text Preprocessor",
+            "Hyper Text Programming",
+            "Hyper Text Preprogramming",
+            "Home Text Preprocessor"
+        ]
+    },
 
 ]
