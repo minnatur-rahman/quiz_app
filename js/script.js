@@ -22,5 +22,5 @@ ContinueButton.onclick = () => {
 } 
 
 function showQuestions (index) {
-   const que_tex = 
+   const que_tex = "<span>" +  + "<span>"
 }
