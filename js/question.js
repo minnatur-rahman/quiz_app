@@ -32,5 +32,27 @@ let question = [
             "Home Text Preprocessor"
         ]
     },
+    {
+        num:4,
+        question:'What Dose SQL Stand for?',
+        answer:'Structured Query Language',
+        option:[
+            "Stylish Question Language",
+            "Stylesheet Query Language",
+            "Statement Question Language",
+            "Structured Query Language"
+        ]
+    },
+    {
+        num:5,
+        question:'What Dose XML Stand for?',
+        answer:'extensible Markup Language',
+        option:[
+            "extensible Markup Language",
+            "eXecutable Multiple Language",
+            "Extra Multi-Program Language",
+            "eXamini Multiple Language"
+        ]
+    },
 
 ]
