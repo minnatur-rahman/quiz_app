@@ -25,7 +25,9 @@ ContinueButton.onclick = () => {
 function showQuestions (index) {
    const que_tex = document.querySelector(".text");
    const option_list = document.querySelector(".MyOptions");
-   
+   let option_tag = '<div class="options">'+questions[index].option+'</div>';
    let que_tag = "<span>" + questions[index].num+ '.' + questions[index].question + "<span>";
-   que_tex.innerHTML = que_tag
+   que_tex.innerHTML = que_tag;
+   option_list.innerHTML = 
+
 }
