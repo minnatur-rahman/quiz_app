@@ -54,6 +54,6 @@ function showQuestions (index) {
    total_que.innerHTML = total_queTag;
 
 
-   const option = option_list
+   const option = option_list.querySelectorAll(".options");
 
 }
