@@ -53,4 +53,7 @@ function showQuestions (index) {
    let total_queTag = '<p>' + questions[index].num+'of 5</p>'
    total_que.innerHTML = total_queTag;
 
+
+   const option = option_list
+
 }
