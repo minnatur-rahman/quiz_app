@@ -56,6 +56,6 @@ function showQuestions (index) {
 
    const option = option_list.querySelectorAll(".options");
    for(let i=0; i<option.length; i++){
-
+      option[i].setAttribute("onclick", "optionSelected(this)");
    }
 }
