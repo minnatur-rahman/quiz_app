@@ -23,8 +23,15 @@ ContinueButton.onclick = () => {
 } 
 const nextBtn = document.querySelector("nextBtn");
 
+
+let que_count = 0;
+
 nextBtn.onclick = () => {
-   if() {
+   if(que_count <questions.length - 1) {
+      que_count ++
+      showQuestions(que_count)
+   }else{
+      console.log("You Have Complate Your Task");
       
    }
 }
