@@ -21,6 +21,14 @@ ContinueButton.onclick = () => {
    Questions.classList.add("activeQuiz");
    showQuestions (4);
 } 
+const nextBtn = document.querySelector("nextBtn");
+
+nextBtn.onclick = () => {
+   if() {
+      
+   }
+}
+
 
 function showQuestions (index) {
    const que_tex = document.querySelector(".text");
