@@ -19,9 +19,9 @@ const Questions = document.querySelector(".Questions");
 ContinueButton.onclick = () => {
    RoolsBox.classList.remove("activeInfo");
    Questions.classList.add("activeQuiz");
-   showQuestions (4);
+   showQuestions (0);
 } 
-const nextBtn = document.querySelector("nextBtn");
+const nextBtn = document.querySelector(".nextBtn");
 
 
 let que_count = 0;
@@ -29,7 +29,7 @@ let que_count = 0;
 nextBtn.onclick = () => {
    if(que_count <questions.length - 1) {
       que_count ++
-      showQuestions(que_count)
+      showQuestions(que_count);
    }else{
       console.log("You Have Complate Your Task");
       
