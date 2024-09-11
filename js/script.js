@@ -19,15 +19,20 @@ const Questions = document.querySelector(".Questions");
 ContinueButton.onclick = () => {
    RoolsBox.classList.remove("activeInfo");
    Questions.classList.add("activeQuiz");
-   showQuestions (3);
+   showQuestions (4);
 } 
 
 function showQuestions (index) {
    const que_tex = document.querySelector(".text");
    const option_list = document.querySelector(".MyOptions");
-   let option_tag = '<div class="options">'+questions[index].option+'</div>';
+   let option_tag = '<div class="options">'+questions[index].option[0]+'</div>'
+                    +'<div class="options">'+questions[index].option[1]+'</div>'
+                    +'<div class="options">'+questions[index].option[2]+'</div>'
+                    +'<div class="options">'+questions[index].option[3]+'</div>'
+                    +'<div class="options">'+questions[index].option[4]+'</div>'
+
    let que_tag = "<span>" + questions[index].num+ '.' + questions[index].question + "<span>";
    que_tex.innerHTML = que_tag;
-   option_list.innerHTML = 
+   option_list.innerHTML = option_tag;
 
 }
