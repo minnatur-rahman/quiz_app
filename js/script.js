@@ -59,3 +59,5 @@ function showQuestions (index) {
       option[i].setAttribute("onclick", "optionSelected(this)");
    }
 }
+
+function 
