@@ -60,4 +60,7 @@ function showQuestions (index) {
    }
 }
 
-function 
+function optionSelected(answer){
+   let userAns = answer.textContent;
+   let correctAns = questions[que_count].answer;
+}
