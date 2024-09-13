@@ -252,3 +252,6 @@ footer .nextBtn:hover {
     background: #f8d7da;
     border: 1px solid #f5c6cb; 
 }
+.options.disabled {
+    pointer-events: none;
+}
