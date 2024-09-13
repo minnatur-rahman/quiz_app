@@ -44,7 +44,7 @@ function showQuestions (index) {
                     +'<div class="options">'+questions[index].option[1]+'</div>'
                     +'<div class="options">'+questions[index].option[2]+'</div>'
                     +'<div class="options">'+questions[index].option[3]+'</div>'
-                    +'<div class="options">'+questions[index].option[4]+'</div>'
+                  
 
    let que_tag = "<span>" + questions[index].num+ '.' + questions[index].question + "<span>";
    que_tex.innerHTML = que_tag;

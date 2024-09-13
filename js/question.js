@@ -24,7 +24,7 @@ let questions = [
     {
         num:3,
         question:'What Dose PHP Stand for?',
-        answer:'Hyper Text Preprosessor',
+        answer:'Hyper Text Preprocessor',
         option:[
             "Hyper Text Preprocessor",
             "Hyper Text Programming",
