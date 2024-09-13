@@ -64,6 +64,7 @@ function optionSelected(answer){
    let userAns = answer.textContent;
    let correctAns = questions[que_count].answer;
    if(userAns == correctAns){
+      answer.classList.add("correct");
       console.log("Answer Is Correct");     
    }else{
       console.log("Answer Is Wrong");
